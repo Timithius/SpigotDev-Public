@@ -1,0 +1,2 @@
+#This file does not do anything other than provide you with what permissions to add, changing it will not effect plugin functionality but will make you confused.
+effectenforcer.reload - allows reloding of the EffectEnforcer configuration

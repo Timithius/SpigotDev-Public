@@ -1,0 +1,8 @@
+name: EffectEnforcer
+version: 2020.01.02
+author: Timithius
+main: net.timithius.effectenforcer.operator
+api-version: 1.15
+commands:
+  efen:
+    description: EffectEnforcer options, type "/efen reload" to reload the plugin.
