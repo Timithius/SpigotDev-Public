@@ -16,8 +16,10 @@ public class operator extends JavaPlugin {
 
         try {
             FileConfiguration config = getConfig();
-            File file = new File(getDataFolder(), "config.yml");
-            file.mkdir();
+            File file_config = new File(getDataFolder(), "config.yml");
+            File file_perms = new File(getDataFolder(), "permissions.txt");
+            file_config.mkdir();
+            file_perms.mkdir();
             config.options().copyDefaults(true);
             saveConfig();
         } catch (Exception configError) {
